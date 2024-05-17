@@ -2,13 +2,13 @@ var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 sl
   firstimgURL: [
     "https://medr0k.github.io/fakeCAPTCHAtest/food/cheese.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/pen.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/dirt.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/ram.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/dirt.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/burger.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/ram1.jpeg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram2.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/pizza.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/mac.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/burger.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram2.jpg",
     "Food" //title goes last
   ],
   secondimgURL: [
@@ -58,8 +58,8 @@ var correctanswers = { //0 is wrong, 1 is right
     0,
     0,
     0,
-    0,
     1,
+    0,
     1,
     1,
     0
