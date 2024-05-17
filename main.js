@@ -9,7 +9,7 @@ var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 sl
     "https://medr0k.github.io/fakeCAPTCHAtest/food/pizza.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/mac.jpg",
     "https://medr0k.github.io/fakeCAPTCHAtest/food/burger.jpg",
-    "food" //title goes last
+    "humans" //title goes last
   ],
   secondimgURL: [
     "https://cdn.stocksnap.io/img-thumbs/960w/computer-laptop_RP7FCYXZMO.jpg",
