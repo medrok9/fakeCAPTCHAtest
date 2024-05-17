@@ -1,15 +1,15 @@
 var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 slides
   firstimgURL: [
-    "http://outdoornebraska.gov/wp-content/uploads/2020/09/Lizard_RGB.jpg",
-    "https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_lizards.jpg",
-    "https://i.guim.co.uk/img/media/e0d077790054d39d7df2a19f5699b18521ec86fe/0_83_2447_1468/master/2447.jpg?width=1200&quality=85&auto=format&fit=max&s=d5e18081111c654a1ce18a7e19da337b",
-    "https://www.eekwi.org/sites/default/files/styles/original/public/2019-12/lizard-on-a-rock_0.jpg?itok=hquKPEJb",
-    "https://ichef.bbci.co.uk/news/976/cpsprodpb/125B3/production/_107178157_178151.jpg",
-    "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/wedtialwx2jivstt_1623721815.jpeg",
-    "https://www.gannett-cdn.com/presto/2021/05/15/PSAT/d90bb36f-08f1-4d0a-9325-833c0d174e52-Blue_Spiny_Lizard-1.JPG?crop=1362,1022,x55,y2&quality=50&width=640",
-    "https://live.staticflickr.com/7794/18120850868_fe91d26b65_b.jpg",
-    "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1024",
-    "humans" //title goes last
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/cheese.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/pen.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/dirt.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram1.jpeg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram2.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/pizza.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/mac.jpg",
+    "https://medr0k.github.io/fakeCAPTCHAtest/food/burger.jpg",
+    "food" //title goes last
   ],
   secondimgURL: [
     "https://cdn.stocksnap.io/img-thumbs/960w/computer-laptop_RP7FCYXZMO.jpg",
@@ -54,15 +54,15 @@ var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 sl
 
 var correctanswers = { //0 is wrong, 1 is right
   firstimgURL: [
+    1,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    1
+    1,
+    1,
+    1,
+    0
   ],
   secondimgURL: [
     1,
