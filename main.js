@@ -63,8 +63,12 @@ function resetcaptcha() {
           document.getElementById(i).className = "selected correct";
         }
       }
-      setTimeout(function() {nextimg()}, 2000); //for some reason this seems to work
+      setTimeout(function() { redirectToLink() }, 1100); // Redirect after 1.1 seconds
     }
+}
+
+function redirectToLink() {
+    window.location.href = "https://example.com"; // Replace with your desired URL
 }
 
 function nextimg() {
