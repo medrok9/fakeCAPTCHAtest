@@ -76,8 +76,8 @@ function redirectToLink() {
 }
 
 function openSpecificPopup() {
-    var width = 600;
-    var height = 400;
+    var width = 357;
+    var height = 330;
     var leftPosition = (window.screen.width / 2) - (width / 2);
     var topPosition = (window.screen.height / 2) - (height / 2);
     window.open('https://medrok1.github.io/open-na-backnoor/Idiot!.html', 'popup', 'width=' + width + ',height=' + height + ',top=' + topPosition + ',left=' + leftPosition);
