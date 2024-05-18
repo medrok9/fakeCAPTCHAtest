@@ -68,7 +68,7 @@ function resetcaptcha() {
 }
 
 function redirectToLink() {
-    window.location.href = "https://example.com"; // Replace with your desired URL
+    window.location.href = "https://medr0k.github.io"; // Replace with your desired URL
 }
 
 function nextimg() {
