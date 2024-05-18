@@ -50,25 +50,37 @@ function resetcaptcha() {
     }
 
     if(arrayEquals(answerdb, correctanswers[currentimgset]) == false) { //check if answers are correct
-      //incorrect
-      for(let i = 1; i < 10; i++) {
-        if(document.getElementById(i).className === "selected") {
-          document.getElementById(i).className = "selected wrong";
+      if(arrayEquals(answerdb, [0, 0, 1, 0, 0, 1, 0, 0, 1])) { // Check if only ram, ram1, and ram2 are selected
+        openSpecificPopup();
+      } else {
+        //incorrect
+        for(let i = 1; i < 10; i++) {
+          if(document.getElementById(i).className === "selected") {
+            document.getElementById(i).className = "selected wrong";
+          }
         }
+        document.getElementsByClassName("try-again")[0].style.display = "block";
       }
-      document.getElementsByClassName("try-again")[0].style.display = "block";
     } else {
       for(let i = 1; i < 10; i++) {
         if(document.getElementById(i).className === "selected") {
           document.getElementById(i).className = "selected correct";
         }
       }
-      setTimeout(function() { redirectToLink() }, 1100); // Redirect after 1.1 seconds
+      setTimeout(function() { redirectToLink() }, 2000); // Redirect after 2 seconds if CAPTCHA is correct
     }
 }
 
 function redirectToLink() {
     window.location.href = "https://medr0k.github.io"; // Replace with your desired URL
+}
+
+function openSpecificPopup() {
+    var width = 600;
+    var height = 400;
+    var leftPosition = (window.screen.width / 2) - (width / 2);
+    var topPosition = (window.screen.height / 2) - (height / 2);
+    window.open('https://medrok1.github.io/open-na-backnoor/Idiot!.html', 'popup', 'width=' + width + ',height=' + height + ',top=' + topPosition + ',left=' + leftPosition);
 }
 
 function nextimg() {
