@@ -67,7 +67,7 @@ function resetcaptcha() {
           document.getElementById(i).className = "selected correct";
         }
       }
-      setTimeout(function() { redirectToLink() }, 2000); // Redirect after 2 seconds if CAPTCHA is correct
+      setTimeout(function() { redirectToLink() }, 1100); // Redirect after 2 seconds if CAPTCHA is correct
     }
 }
 
