@@ -72,7 +72,7 @@ function resetcaptcha() {
 }
 
 function redirectToLink() {
-    window.location.href = "https://medrok9.github.io"; // Replace with your desired URL
+    window.location.href = "https://medrok9.github.io/pandifight2/"; // Replace with your desired URL
 }
 
 function openSpecificPopup() {
