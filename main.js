@@ -1,14 +1,14 @@
 var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 slides
   firstimgURL: [
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/cheese.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/pen.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/dirt.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/burger.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram1.jpeg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/pizza.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/mac.jpg",
-    "https://medr0k.github.io/fakeCAPTCHAtest/food/ram2.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/cheese.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/pen.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/ram.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/dirt.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/burger.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/ram1.jpeg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/pizza.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/mac.jpg",
+    "https://medrok9.github.io/fakeCAPTCHAtest/food/ram2.jpg",
     "Food" //title goes last
   ],
 };
@@ -72,7 +72,7 @@ function resetcaptcha() {
 }
 
 function redirectToLink() {
-    window.location.href = "https://medrok9.github.io/pandifight2/"; // Replace with your desired URL
+    window.location.href = "https://medrok9.github.io/pandifight2"; // Replace with your desired URL
 }
 
 function openSpecificPopup() {
